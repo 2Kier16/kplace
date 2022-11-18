@@ -1,0 +1,90 @@
+.settings {
+  display: flex;
+}
+
+.settingsContainer {
+  flex: 9;
+}
+
+.settingsTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.updateTitle {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #be9656;
+}
+
+.deleteTitle {
+  color: red;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.settingsForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.profilePicture {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.profilePicture img {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.fa-icon {
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: silver;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.fa-icon:hover {
+  background-color: #be9656;
+}
+
+.settingsForm label {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.settings input {
+  color: grey;
+  margin: 10px 0;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+}
+
+.settingsSubmit {
+  width: 150;
+  align-self: center;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: silver;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.settingsSubmit:hover {
+  color: black;
+  background-color: #be9656;
+}

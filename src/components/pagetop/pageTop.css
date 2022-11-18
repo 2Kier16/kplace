@@ -1,0 +1,88 @@
+.top {
+  width: 100%;
+  height: 60px;
+  background-color: whitesmoke;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-family: "Noto Sans Egyptian Hieroglyphs", sans-serif;
+  padding-left: 20px;
+  z-index: 1000;
+}
+.topLeft {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topRight {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialIcon {
+  font-size: 20px;
+  margin-right: 10px;
+  color: silver;
+  cursor: pointer;
+}
+
+.socialIcon:hover {
+  color: #be9656;
+}
+
+.topCenter {
+  flex: 6;
+}
+
+.topImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.listContainer {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.listContainerR {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.listItemR {
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: 300;
+  cursor: pointer;
+  font-family: "Josefin Slab", serif;
+}
+
+.listItem {
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: 300;
+  cursor: pointer;
+  font-family: "Josefin Slab", serif;
+}
+
+.searchIcon {
+  font-size: 18px;
+  color: silver;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.searchIcon:hover {
+  color: #be9656;
+}
